@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>异或</title>
+      <link href="/2023/04/25/%E5%BC%82%E6%88%96/"/>
+      <url>/2023/04/25/%E5%BC%82%E6%88%96/</url>
+      
+        <content type="html"><![CDATA[<h1 id="关于异或"><a href="#关于异或" class="headerlink" title="关于异或"></a>关于异或</h1><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>对两个数的二进制位逐位求异或，如果位相同则取 $0$ ，否则取 $1$ </p><p>例如 $5\ xor\ 3$</p><script type="math/tex; mode=display">&101\\xor&011\\=&110\\=&6</script><h2 id="基本性质"><a href="#基本性质" class="headerlink" title="基本性质"></a>基本性质</h2><script type="math/tex; mode=display">0 \ xor\ n = n\\n \ xor\ n = 0\\a \ xor\ b \ xor\ b = c\\a\ xor\ b\ xor\ c = a\ xor (b\ xor\ c)</script><h2 id="特殊性质"><a href="#特殊性质" class="headerlink" title="特殊性质"></a>特殊性质</h2><ul><li>对一个二进制位反复取反，等于它反复地异或 $1$</li><li>对于 $1 - n$ 之间所有的数求异或，结果呈现以下特点 <code>a = [x, 1, x + 1, 0]</code> 对于 $x mod4$ 的结果取对应的位数， 例如 $xor[1..4] = a[0] = 4;xor[1..6] = a[2] = 7$ </li><li>异或的差分和前缀和和普通加减法一致，只不过，异或的逆运算，仍然是异或</li></ul><p>由上述性质，我们现在可以得到</p><ul><li>任何连续区间的异或和</li><li>随机数字的连续异或和（使用前缀和）</li><li>区间异或，单点查询的异或（使用差分）</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数论基础</title>
       <link href="/2023/04/11/%E6%95%B0%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
       <url>/2023/04/11/%E6%95%B0%E5%AD%A6%E7%9B%B8%E5%85%B3/</url>
